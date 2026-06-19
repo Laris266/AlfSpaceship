@@ -1,4 +1,4 @@
-describe('String Calculator', function() {
+describe('Alf Spaceship', function() {
 	beforeEach(function() {
 		calculator = new StringCalculator();
 	});
