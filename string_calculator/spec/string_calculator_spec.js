@@ -17,4 +17,7 @@ describe('SpaceshipFinder', function() {
 	it('should return [2,1] for "....\n..X.\n...."', function() {
 		expect(finder.findSpaceship('....\n..X.\n....')).toEqual([2,1]);
 	});
+	it('should return "Spaceship lost forever." for "....\n....\n...."', function() {
+		expect(finder.findSpaceship('....\n....\n....')).toBe("Spaceship lost forever.");
+	});
 });
