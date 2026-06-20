@@ -20,4 +20,15 @@ describe('SpaceshipFinder', function() {
 	it('should return "Spaceship lost forever." for "....\n....\n...."', function() {
 		expect(finder.findSpaceship('....\n....\n....')).toBe("Spaceship lost forever.");
 	});
+	it('should return [7,2] ', function() {
+		expect(finder.findSpaceship(
+			'..........\n' +
+			'..........\n' +
+			'.......X..\n' +
+			'..........\n' +
+			'..........\n' +
+			'..........\n' +
+			'..........\n'
+			)).toEqual([7,2]);
+	});
 });
