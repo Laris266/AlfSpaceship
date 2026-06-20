@@ -1,5 +1,5 @@
 // StringCalculator.js
-function StringCalculator() {}
-StringCalculator.prototype.add = function(string_numbers) {
-	//
+function SpaceshipFinder() {}
+SpaceshipFinder.prototype.findSpaceship = function(string) {
+	return [0, 0];
 };

@@ -1,9 +1,9 @@
 describe('Alf Spaceship', function() {
 	beforeEach(function() {
-		calculator = new StringCalculator();
+		finder = new SpaceshipFinder();
 	});
 
-	it('should return 0 for an empty string', function() {
-		expect(calculator.add('')).toEqual(0);
+	it('should return spaceship lost forever for an empty string', function() {
+		expect(finder.findSpaceship('X')).toEqual([0,0]);
 	});
 });

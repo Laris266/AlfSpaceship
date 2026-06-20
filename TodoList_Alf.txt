@@ -1,0 +1,23 @@
+Todo List je ein falscher und richtiger fall
+1. "" => "Spaceship lost forever"
+
+2. "X" => [0,0]
+
+3. ".X" => [1,0]
+
+4. "...X..." => [3,0]
+
+"....
+..X.
+...."
+=> [2,1]
+
+"....
+....
+..."
+=> "Spaceship lost forever"
+
+"..........
+.......X..
+.........."
+=> [7,2]
